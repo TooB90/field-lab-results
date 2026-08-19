@@ -3,38 +3,88 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Field Lab — Sample mini layout</title>
+<title>Field Lab — Demo layout (synthetic)</title>
 <style>
-  body { font: 16px/1.5 system-ui, sans-serif; margin: 0; padding: 1rem;
-         background: #111; color: #eee; }
+  :root { color-scheme: dark; }
+  body { font: 16px/1.55 system-ui, -apple-system, sans-serif; margin: 0;
+         padding: 1rem .9rem 3rem; background: #14171a; color: #e8eaed; }
   main { max-width: 40rem; margin: 0 auto; }
-  h1 { font-size: 1.4rem; margin: 0 0 .25rem; }
-  p.meta { color: #999; margin: 0 0 1.5rem; font-size: .85rem; }
-  table { border-collapse: collapse; width: 100%; }
-  th, td { text-align: left; padding: .5rem .4rem; border-bottom: 1px solid #333; }
-  th { color: #999; font-weight: 600; font-size: .8rem; text-transform: uppercase; }
+  h1 { font-size: 1.35rem; margin: 0 0 .2rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .6rem; color: #ffd166; }
+  p.meta { color: #98a2ad; font-size: .85rem; margin: 0 0 1.2rem; }
+  figure { margin: 0 0 .5rem; }
+  svg { width: 100%; height: auto; display: block; border-radius: 6px;
+        background: #1d2a22; }
+  figcaption { color: #98a2ad; font-size: .8rem; margin-top: .4rem; }
+  .swatch { display: inline-block; width: .7rem; height: .7rem; border-radius: 2px;
+            vertical-align: baseline; margin-right: .2rem; }
+  ul { padding-left: 0; list-style: none; margin: 0; }
+  li { margin-bottom: .7rem; }
+  .tag { display: inline-block; min-width: 1.6rem; padding: 0 .3rem; margin-right: .35rem;
+         border-radius: 3px; background: #2c3138; color: #ffd166; font-weight: 700;
+         font-size: .8rem; text-align: center; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+  th, td { padding: .4rem .35rem; border-bottom: 1px solid #2c3138; text-align: left;
+           white-space: nowrap; }
+  th { color: #98a2ad; font-size: .72rem; text-transform: uppercase; letter-spacing: .03em; }
   .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .strong { font-weight: 700; color: #ffd166; }
+  tr.top td { background: #1e242a; }
+  .caveat { border-left: 3px solid #ff7b54; padding: .1rem 0 .1rem .8rem; margin-top: .8rem;
+            color: #c9d1d9; font-size: .88rem; }
+  code { background: #22262b; padding: 0 .25rem; border-radius: 3px; font-size: .85em; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Sample mini layout</h1>
+  <h1>Demo layout (synthetic)</h1>
   <p class="meta">
-    Season 2025 &middot;
-    3 bunkers &middot;
+    20 bunkers &middot; season 2025 &middot;
     field 45.72 &times; 36.58 m &middot;
-    generated 2026-08-19T09:54:30.894Z
+    generated 2026-08-19T10:30:18.903Z
   </p>
+
+  <figure>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 914.4 731.6" role="img" aria-label="Layout plan view with the analysis drawn on top"><rect x="0" y="0" width="914.4" height="731.6" fill="#1d2a22"/><g stroke="#3c5a49" stroke-width="1"><line x1="0" y1="731.6" x2="0" y2="0"/><line x1="60.96" y1="731.6" x2="60.96" y2="0"/><line x1="121.92" y1="731.6" x2="121.92" y2="0"/><line x1="182.88" y1="731.6" x2="182.88" y2="0"/><line x1="243.84" y1="731.6" x2="243.84" y2="0"/><line x1="304.8" y1="731.6" x2="304.8" y2="0"/><line x1="365.76" y1="731.6" x2="365.76" y2="0"/><line x1="426.72" y1="731.6" x2="426.72" y2="0"/><line x1="487.68" y1="731.6" x2="487.68" y2="0"/><line x1="548.64" y1="731.6" x2="548.64" y2="0"/><line x1="609.6" y1="731.6" x2="609.6" y2="0"/><line x1="670.56" y1="731.6" x2="670.56" y2="0"/><line x1="731.52" y1="731.6" x2="731.52" y2="0"/><line x1="792.48" y1="731.6" x2="792.48" y2="0"/><line x1="853.44" y1="731.6" x2="853.44" y2="0"/><line x1="914.4" y1="731.6" x2="914.4" y2="0"/><line x1="0" y1="731.6" x2="914.4" y2="731.6"/><line x1="0" y1="670.64" x2="914.4" y2="670.64"/><line x1="0" y1="609.68" x2="914.4" y2="609.68"/><line x1="0" y1="548.72" x2="914.4" y2="548.72"/><line x1="0" y1="487.76" x2="914.4" y2="487.76"/><line x1="0" y1="426.8" x2="914.4" y2="426.8"/><line x1="0" y1="365.84" x2="914.4" y2="365.84"/><line x1="0" y1="304.88" x2="914.4" y2="304.88"/><line x1="0" y1="243.92" x2="914.4" y2="243.92"/><line x1="0" y1="182.96" x2="914.4" y2="182.96"/><line x1="0" y1="122" x2="914.4" y2="122"/><line x1="0" y1="61.04" x2="914.4" y2="61.04"/><line x1="0" y1="0.08" x2="914.4" y2="0.08"/></g><line x1="457.2" y1="0" x2="457.2" y2="731.6" stroke="#7f9b8b" stroke-width="2" stroke-dasharray="8 6"/><g fill="#9fb3c8"><circle cx="30.48" cy="609.64" r="5"/><circle cx="30.48" cy="487.72" r="5"/><circle cx="30.48" cy="365.8" r="5"/><circle cx="30.48" cy="243.88" r="5"/><circle cx="30.48" cy="121.96" r="5"/><circle cx="883.92" cy="121.96" r="5"/><circle cx="883.92" cy="243.88" r="5"/><circle cx="883.92" cy="365.8" r="5"/><circle cx="883.92" cy="487.72" r="5"/><circle cx="883.92" cy="609.64" r="5"/></g><polygon points="304.82,602.04 243.82,602.04 243.82,617.24 304.82,617.24" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="358.49,670.6 323.68,650.5 323.68,690.7" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="106.64,538.68 76.24,538.68 76.24,558.68 106.64,558.68" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="222.36,487.72 219.72,481.36 213.36,478.72 207,481.36 204.36,487.72 207,494.08 213.36,496.72 219.72,494.08" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="463.2,426.76 461.44,422.52 457.2,420.76 452.96,422.52 451.2,426.76 452.96,431 457.2,432.76 461.44,431" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="350.48,350.6 320.08,350.6 320.08,381 350.48,381" fill="#ffd166" fill-opacity="0.85" stroke="#ffd166" stroke-width="3"/><circle cx="335.28" cy="365.8" r="13" fill="#1a1d21" stroke="#ffd166" stroke-width="2"/><text x="335.28" y="370.8" text-anchor="middle" font-size="15" font-weight="700" fill="#ffd166">2</text><polygon points="164.4,353.8 140.4,353.8 140.4,377.8 164.4,377.8" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="204.26,228.68 204.26,259.08 222.46,259.08 222.46,228.68" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="317.73,121.96 344.06,137.16 344.06,106.76" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="304.82,53.4 243.82,53.4 243.82,68.6 304.82,68.6" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="609.58,129.56 670.58,129.56 670.58,114.36 609.58,114.36" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="555.91,61 590.72,81.1 590.72,40.9" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="807.76,192.92 838.16,192.92 838.16,172.92 807.76,172.92" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="692.04,243.88 694.68,250.24 701.04,252.88 707.4,250.24 710.04,243.88 707.4,237.52 701.04,234.88 694.68,237.52" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="451.2,304.84 452.96,309.08 457.2,310.84 461.44,309.08 463.2,304.84 461.44,300.6 457.2,298.84 452.96,300.6" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="563.92,381 594.32,381 594.32,350.6 563.92,350.6" fill="#ffd166" fill-opacity="0.85" stroke="#ffd166" stroke-width="3"/><circle cx="579.12" cy="365.8" r="13" fill="#1a1d21" stroke="#ffd166" stroke-width="2"/><text x="579.12" y="370.8" text-anchor="middle" font-size="15" font-weight="700" fill="#ffd166">1</text><polygon points="750,377.8 774,377.8 774,353.8 750,353.8" fill="#ffd166" fill-opacity="0.85" stroke="#ffd166" stroke-width="3"/><circle cx="762" cy="365.8" r="13" fill="#1a1d21" stroke="#ffd166" stroke-width="2"/><text x="762" y="370.8" text-anchor="middle" font-size="15" font-weight="700" fill="#ffd166">3</text><polygon points="691.94,472.52 691.94,502.92 710.14,502.92 710.14,472.52" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="596.67,609.64 570.34,594.44 570.34,624.84" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><polygon points="609.58,678.2 670.58,678.2 670.58,663 609.58,663" fill="#8fd6a8" fill-opacity="0.45" stroke="#5fae7c" stroke-width="1.5"/><line x1="579.12" y1="85.1" x2="326.29" y2="205.42" stroke="#ff7b54" stroke-width="3" stroke-linecap="round" opacity="0.9"/><circle cx="579.12" cy="85.1" r="4" fill="#ff7b54"/><text x="326.29" y="197.42" text-anchor="middle" font-size="13" font-weight="700" fill="#ff7b54">L1</text><line x1="335.28" y1="646.5" x2="588.11" y2="526.18" stroke="#ff7b54" stroke-width="3" stroke-linecap="round" opacity="0.9"/><circle cx="335.28" cy="646.5" r="4" fill="#ff7b54"/><text x="588.11" y="518.18" text-anchor="middle" font-size="13" font-weight="700" fill="#ff7b54">L2</text><line x1="579.12" y1="628.84" x2="323.33" y2="514.94" stroke="#ff7b54" stroke-width="3" stroke-linecap="round" opacity="0.9"/><circle cx="579.12" cy="628.84" r="4" fill="#ff7b54"/><text x="323.33" y="506.94" text-anchor="middle" font-size="13" font-weight="700" fill="#ff7b54">L3</text><line x1="335.28" y1="102.76" x2="591.07" y2="216.66" stroke="#ff7b54" stroke-width="3" stroke-linecap="round" opacity="0.9"/><circle cx="335.28" cy="102.76" r="4" fill="#ff7b54"/><text x="591.07" y="208.66" text-anchor="middle" font-size="13" font-weight="700" fill="#ff7b54">L4</text><line x1="640.08" y1="682.2" x2="388.56" y2="559.16" stroke="#ff7b54" stroke-width="3" stroke-linecap="round" opacity="0.9"/><circle cx="640.08" cy="682.2" r="4" fill="#ff7b54"/><text x="388.56" y="551.16" text-anchor="middle" font-size="13" font-weight="700" fill="#ff7b54">L5</text></svg>
+    <figcaption>
+      Home half on the left. <span class="swatch" style="background:#ffd166"></span>top
+      3 key bunkers, <span class="swatch" style="background:#ff7b54"></span>top
+      5 lanes with their viewing direction,
+      <span class="swatch" style="background:#9fb3c8"></span>start positions.
+    </figcaption>
+  </figure>
+
+  <h2>The three bunkers that decide the most</h2>
+  <ul><li><span class="tag">1</span> temple-a (Temple) — sees 20 opposing positions standing, is seen by 17 while staying low.</li><li><span class="tag">2</span> temple-h (Temple) — sees 20 opposing positions standing, is seen by 17 while staying low.</li><li><span class="tag">3</span> tall-a (Tall) — sees 20 opposing positions standing, is seen by 19 while staying low.</li></ul>
+
+  <h2>The strongest lanes</h2>
+  <ul><li><span class="tag">L1</span> From the left slot of dorito_large-a, standing up, you cover 50 opposing breakout paths and can reach 5 of 5 of their starters. 711 m of their run is exposed to you, looking towards the home backline and the -y side.</li><li><span class="tag">L2</span> From the left slot of dorito_large-h, standing up, you cover 50 opposing breakout paths and can reach 5 of 5 of their starters. 711 m of their run is exposed to you, looking towards the away backline and the +y side.</li><li><span class="tag">L3</span> From the right slot of dorito_small-a, standing up, you cover 50 opposing breakout paths and can reach 5 of 5 of their starters. 670 m of their run is exposed to you, looking towards the home backline and the +y side.</li><li><span class="tag">L4</span> From the right slot of dorito_small-h, standing up, you cover 50 opposing breakout paths and can reach 5 of 5 of their starters. 670 m of their run is exposed to you, looking towards the away backline and the -y side.</li><li><span class="tag">L5</span> From the left slot of beam-a, standing up, you cover 50 opposing breakout paths and can reach 5 of 5 of their starters. 658 m of their run is exposed to you, looking towards the home backline and the +y side.</li></ul>
+
+  <h2>Full ranking</h2>
+  <div class="scroll">
   <table>
-    <thead>
-      <tr><th>From</th><th>To</th><th class="num">Distance (m)</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>centre-temple</td><td>snake-dorito</td><td class="num">10.99</td></tr>
-      <tr><td>home-can</td><td>centre-temple</td><td class="num">16.41</td></tr>
-      <tr><td>home-can</td><td>snake-dorito</td><td class="num">17.77</td></tr>
-    </tbody>
+    <thead><tr>
+      <th class="num">#</th><th>Bunker</th><th>Side</th>
+      <th class="num">Sees standing</th><th class="num">Sees crouching</th>
+      <th class="num">Seen crouching</th><th class="num">Key score</th>
+    </tr></thead>
+    <tbody><tr class="top"><td class="num">1</td><td>temple-a</td><td>away</td><td class="num">20</td><td class="num">17</td><td class="num">17</td><td class="num strong">11.5</td></tr><tr class="top"><td class="num">2</td><td>temple-h</td><td>home</td><td class="num">20</td><td class="num">17</td><td class="num">17</td><td class="num strong">11.5</td></tr><tr class="top"><td class="num">3</td><td>tall-a</td><td>away</td><td class="num">20</td><td class="num">19</td><td class="num">19</td><td class="num strong">10.5</td></tr><tr><td class="num">4</td><td>tall-h</td><td>home</td><td class="num">20</td><td class="num">19</td><td class="num">19</td><td class="num strong">10.5</td></tr><tr><td class="num">5</td><td>beam-a</td><td>away</td><td class="num">18</td><td class="num">16</td><td class="num">16</td><td class="num strong">10.0</td></tr><tr><td class="num">6</td><td>beam-h</td><td>home</td><td class="num">18</td><td class="num">16</td><td class="num">16</td><td class="num strong">10.0</td></tr><tr><td class="num">7</td><td>dorito_large-a</td><td>away</td><td class="num">19</td><td class="num">19</td><td class="num">19</td><td class="num strong">9.5</td></tr><tr><td class="num">8</td><td>dorito_large-h</td><td>home</td><td class="num">19</td><td class="num">19</td><td class="num">19</td><td class="num strong">9.5</td></tr><tr><td class="num">9</td><td>pin-a</td><td>away</td><td class="num">18</td><td class="num">17</td><td class="num">17</td><td class="num strong">9.5</td></tr><tr><td class="num">10</td><td>pin-h</td><td>home</td><td class="num">18</td><td class="num">17</td><td class="num">17</td><td class="num strong">9.5</td></tr><tr><td class="num">11</td><td>can-a</td><td>away</td><td class="num">18</td><td class="num">18</td><td class="num">18</td><td class="num strong">9.0</td></tr><tr><td class="num">12</td><td>can-h</td><td>home</td><td class="num">18</td><td class="num">18</td><td class="num">18</td><td class="num strong">9.0</td></tr><tr><td class="num">13</td><td>dorito_small-a</td><td>away</td><td class="num">18</td><td class="num">18</td><td class="num">18</td><td class="num strong">9.0</td></tr><tr><td class="num">14</td><td>dorito_small-h</td><td>home</td><td class="num">18</td><td class="num">18</td><td class="num">18</td><td class="num strong">9.0</td></tr><tr><td class="num">15</td><td>brick-a</td><td>away</td><td class="num">16</td><td class="num">15</td><td class="num">15</td><td class="num strong">8.5</td></tr><tr><td class="num">16</td><td>brick-h</td><td>home</td><td class="num">16</td><td class="num">15</td><td class="num">15</td><td class="num strong">8.5</td></tr><tr><td class="num">17</td><td>mini-a</td><td>away</td><td class="num">16</td><td class="num">15</td><td class="num">15</td><td class="num strong">8.5</td></tr><tr><td class="num">18</td><td>mini-h</td><td>home</td><td class="num">16</td><td class="num">15</td><td class="num">15</td><td class="num strong">8.5</td></tr><tr><td class="num">19</td><td>snake-a</td><td>away</td><td class="num">17</td><td class="num">17</td><td class="num">17</td><td class="num strong">8.5</td></tr><tr><td class="num">20</td><td>snake-h</td><td>home</td><td class="num">17</td><td class="num">17</td><td class="num">17</td><td class="num strong">8.5</td></tr></tbody>
   </table>
+  </div>
+  <p class="meta">Key score = sees standing &minus; 0.5 &times; seen crouching.</p>
+
+  <h2>What this does not tell you</h2>
+  <div class="caveat">
+    <p><strong>No timing.</strong> A lane that covers five paths but that you reach
+    too late looks exactly as good here as one you own from the first second.</p>
+    <p><strong>Bunker dimensions.</strong>
+    Every height and width used here is unverified: Beam, Brick, Can / Cylinder, Large Dorito, Mini, Pin, Small Dorito, Snake, Tall, Temple. Heights decide what blocks a shot, so a wrong height flips a sightline.</p>
+    <p><strong>Two and a half D.</strong> A shot is either over a bunker or stopped
+    by it. Leaning, kneeling between the two stances and shooting through gaps are
+    not modelled.</p>
+    <p><strong>About this layout.</strong> NOT a real tournament layout. Built by hand on the 10 ft grid so features 04 to 07 have something to run on until the real layout is captured with tools/capture.html into data/layout.json.</p>
+  </div>
 </main>
 </body>
 </html>
