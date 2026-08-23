@@ -1,0 +1,8 @@
+# Published layout sheets are somebody else's images and never go in here.
+# Three of them were sitting in this folder untracked on 2026-08-23, and this
+# repository is public. See decision 0016 in the tool repository: a sheet is
+# referenced by file name, never embedded.
+sheets/
+
+# Captured layouts stay in the private tool repository.
+*.layout.json
