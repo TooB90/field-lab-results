@@ -17,8 +17,13 @@ answers yes.
 
 Drag a bunker or a player out of the strip at the top and let go on the field.
 Whatever is picked wears a ring: drag the ring to turn it, drag the four arrows
-to move it, tap the × to delete it. On a player the third mark is a figure of
-how he is standing — tap it and pick lying, kneeling or standing.
+to move it, tap the × to delete it. The fourth mark is what the thing is — on a
+player a figure of how he is standing, which opens into lying, kneeling and
+standing; on a brick, a giant brick or a snake beam, the body itself, and one
+tap tips it onto its side.
+
+Bunkers come in mirror pairs and the two halves are always identical: move,
+turn, tip or delete one and the other follows.
 
 Drag the field itself to move the view. Drop a layout sheet anywhere on the
 field to trace over it, or drop a saved `.json` field to open it. The switch in
