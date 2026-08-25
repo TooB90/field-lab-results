@@ -1,8 +1,14 @@
-# Published layout sheets are somebody else's images and never go in here.
+# Loose layout sheets never go in here.
 # Three of them were sitting in this folder untracked on 2026-08-23, and this
 # repository is public. See decision 0016 in the tool repository: a sheet is
 # referenced by file name, never embedded.
 sheets/
+
+# Since 2026-08-25 three sheets ARE published, in assets/ with hashed names,
+# and that is deliberate: the page ships with three tournament layouts, and a
+# layout without its sheet is a field nobody can check against anything.
+# Decision 0039 in the tool repository is the argument. They arrive through the
+# bundler from src/assets/demo/, never by being dropped in here by hand.
 
 # Captured layouts stay in the private tool repository.
 *.layout.json
